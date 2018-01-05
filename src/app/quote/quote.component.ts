@@ -18,6 +18,9 @@ export class QuoteComponent implements OnInit {
     new Quote(9,'Our acts mark or mar us, we are the children of our own deeds.','By Victor Hugo'),
     new Quote(10,`Words may show a man's wit but actions his meaning.`,'By Benjamin Franklin'),
   ]
+  toggleDetails(index){
+    this.quotes[index].showDescription = !this.quotes[index].showDescription;    
+  }
   constructor() { }
 
   ngOnInit() {
