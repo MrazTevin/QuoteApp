@@ -10,5 +10,6 @@ export class AppComponent {
   quotes = [
     new Quote(1,'Nine tenths of wisdom consists of being wise in time.'),
     new Quote(2,'Anything more than the true would be too much'),
+    new Quote(3,'Its much better to do it in a way that nobody knows about it'),
   ]
  }
