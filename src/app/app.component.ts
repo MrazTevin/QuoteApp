@@ -12,6 +12,6 @@ export class AppComponent {
     new Quote(2,'Anything more than the true would be too much'),
     new Quote(3,'Its much better to do it in a way that nobody knows about it'),
     new Quote(4,`Movies have takes.But plays are like life you don't really get takes`),
-    
+    new Quote(5,'The end of a man is action, and not thought, though it be of the noblest'),
   ]
  }
