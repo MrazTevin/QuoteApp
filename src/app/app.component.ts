@@ -15,5 +15,6 @@ export class AppComponent {
     new Quote(5,'The end of a man is action, and not thought, though it be of the noblest.'),
     new Quote(6,'The more we do the more we can do;the more busy we are, the more leisure we have.'),
     new Quote(7,'The more you learn the more you earn.'),
+    new Quote(8,'One who sees inaction in action and action in inaction is intelligent among men.'),
   ]
  }
