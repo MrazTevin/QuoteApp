@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-   constructor(){}
+  quotes: string [];
+   constructor(){
+     this.quotes =["a wise man thinks twice"];
+   }
  }
