@@ -14,5 +14,6 @@ export class AppComponent {
     new Quote(4,`Movies have takes.But plays are like life you don't really get takes.`),
     new Quote(5,'The end of a man is action, and not thought, though it be of the noblest.'),
     new Quote(6,'The more we do the more we can do;the more busy we are, the more leisure we have.'),
+    new Quote(7,'The more you learn the more you earn.'),
   ]
  }
