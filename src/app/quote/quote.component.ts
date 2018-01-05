@@ -8,7 +8,7 @@ import { Quotes} from 'quotes';
 export class QuoteComponent implements OnInit {
   quotes = [
     new Quote(1, 'It may have been in pieces, but I gave you the best of me.'),
-    new Quote(2, 'Everything should be made as simple as possible, but not simpler'),
+    new Quote(1, 'Everything should be made as simple as possible, but not simple'),
   ]
 
   constructor() { }
