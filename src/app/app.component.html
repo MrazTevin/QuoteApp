@@ -2,4 +2,6 @@
 <hr>
 <app-quote></app-quote>
 <ul>
+  <li *ngFor='let quotes display'>{{quotes.name}}</li>
 </ul>
+  <p *ngIf='quotes.length'>20'>You have too many quotes</p>
