@@ -1,6 +1,6 @@
 <h1>Great Quotes</h1>
 <hr>
 <app-quote></app-quote>
-<ul>
-  <li *ngFor='let quote of quotes'>{{quotes.name}}</li>
+<ul *ngFor='let quote of quotes'>
+  <li >{{quote.name}}</li>
 </ul>
