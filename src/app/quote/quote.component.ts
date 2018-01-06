@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,Output,EventEmitter } from '@angular/core';
 import {Quote} from '../quote'
 @Component({
   selector: 'app-quote',
@@ -19,10 +19,7 @@ export class QuoteComponent implements OnInit {
     new Quote(10,`Words may show a man's wit but actions his meaning.`,'By Benjamin Franklin'),
   ]
 
-  toggleDetails(index){
-    this.quotes[index].showDescription = !this.quotes[index].showDescription;
-  }
-
+  
   completeQuote(isComplete,index){
      if (isComplete) {
        this.quotes.splice(index,1);

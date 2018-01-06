@@ -1,8 +1,7 @@
 <p>Get ready to be inspired today</p>
 <ul>
-  <div *ngFor='let quote of quotes; let i = index'>
+  <div *ngFor='let quote of quotes;'>
     <li>{{quote.name}}</li>
-    <button (click)='toogleDetails(i)'>View More</button>
-    <app-quote-details *ngIf="quote.showDescription" [quote]='quotes' (isComplete)= 'completeQuote($event,i)'></app-quote-details>
+    <app-quote-details [quote]='quotes'></app-quote-details>
   </div>
 </ul>
